@@ -1,2 +1,2 @@
 #!/bin/bash
-sort $userlist | ls -l /etc/passwd
+sort -~ $userlist /etc/passwd
