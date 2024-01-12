@@ -1,0 +1,1 @@
+Here we go again, time to create a new README for a new project. THis is the project for teaching us about Variables, Expansions, Arithmetic Expressions, the alias command and a few remaining shell basics. I was told that at certain points we may have to use a README for more than just messing about and explaining each task in detail. I sure hope that isnt the case.
