@@ -1,2 +1,2 @@
 #!/bin/bash
-Sum=$((128+$TRUEKNOWLEDGE))
+Sum=$((128+TRUEKNOWLEDGE))
