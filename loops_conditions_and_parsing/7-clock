@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #creating a script that lists hours and minutes like a digital clock
-i=0
+i=1
 h=0
 while [ $h -le 12 ]
 do
