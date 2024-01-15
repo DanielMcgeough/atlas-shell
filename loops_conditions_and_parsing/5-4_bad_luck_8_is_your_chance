@@ -6,8 +6,8 @@ do
 	i=$(( i+1 ))
 	if [[ $i = 5 ]];
 	then echo "bad luck";
-	[elif $i = 9; then
-		echo "good luck";]
-	[else echo "Best School";] 
+	elif $i = 9; then
+		echo "good luck";
+	else echo "Best School"; 
 	fi
 done
