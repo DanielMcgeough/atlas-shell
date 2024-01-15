@@ -13,8 +13,8 @@ do
 		17) echo "17"
 		    echo "bad luck from Italy"
     		;;		    
-		$1) echo "$i"
+		$i) echo "$i"
 		;;
 	esac
 	i=$(( i + 1 ))
-done
+done	
