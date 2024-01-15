@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#use a while loop to count up to 20 with a bunch of ifs.
+i=1
+while [ $i -le 20 ];
+do
+	i=$(( i+1 ))
+	if [[ $i = 5 ]];
+	then echo "bad luck from China";
+	elif [[ $i = 9 ]]; then
+	echo "good luck";
+	else echo $i; 
+	fi
+done
