@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Creating a script that displays content in a certain format.
-for i in $pwd
+for fname in *
 do
-	ls-l
+	nameWithoutNum=${fname#*-}
+	echo "${nameWithoutNum}"
 done
