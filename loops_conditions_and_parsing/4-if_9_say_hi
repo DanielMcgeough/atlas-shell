@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#While loop to push out some text and addition on the 9th line
+i=1
+until [ $i == 1 ]
+do
+	echo "Best School"
+	i=$((i+1))
+	if [[ $i = 9 ]]
+	then echo $i "Best School"\n"hi"
+done
