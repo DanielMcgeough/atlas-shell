@@ -6,6 +6,6 @@ do
 	echo "Best School"
 	i=$(( i+1 ))
 	if [[ $i = 9 ]]
-	then echo $i "Hi"
+	then echo "Hi"
 	fi
 done
